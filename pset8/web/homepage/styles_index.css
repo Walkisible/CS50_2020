@@ -1,0 +1,253 @@
+/*-------------------------------------------------Text-------------------------------------------------*/
+.title
+{
+    text-align: center;
+    font-size: 90px;
+    font-weight: Bold;
+    font-family: Rochester;
+    color: #000000;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_ext
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: Segoe UI;
+    color: #333333;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sub_header
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 77%;
+    left: 15%;
+}
+
+.text_header
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    text-align: justify;
+    position: absolute;
+    top: 144%;
+    left: 36%;
+}
+
+.text_1
+{
+    font-size: 14px;
+    font-family: Segoe UI;
+    text-align: justify;
+    position: absolute;
+    top: 83%;
+    left: 15%;
+    width: 350px;
+}
+
+.text_2
+{
+    font-size: 14px;
+    font-family: Segoe UI;
+    text-align: justify;
+    position: absolute;
+    top: 150%;
+    left: 36%;
+    width: 550px;
+}
+
+.text_3
+{
+    font-size: 14px;
+    font-family: Segoe UI;
+    text-align: justify;
+    position: absolute;
+    top: 156.4%;
+    left: 36%;
+}
+
+/*-------------------------------------------------Top Navigator-------------------------------------------------*/
+.top_nav
+{
+    background-color: #333333;
+    overflow: hidden;
+    font-family: Segoe UI;
+}
+
+.top_ele
+{
+    float: left;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Segoe UI;
+}
+
+.top_ele:hover
+{
+    background-color: #DEDFE4;
+    color: #000000;
+    text-decoration: none;
+}
+
+.active
+{
+    background-color: #264B77;
+    color: white;
+}
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+.footer
+{
+    font-family: Segoe UI;
+    position: absolute;
+    left: 0%;
+    top: 180%;
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #264B77;
+    color: white;
+    text-align: center;
+}
+/*-------------------------------------------------Image-------------------------------------------------*/
+.panorama
+{
+    width: 100%;
+    opacity: 0.7;
+}
+
+.img_01
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 79%;
+    left: 45%;
+}
+
+.img_02
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 79%;
+    left: 66%;
+}
+
+.img_03
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+}
+
+.img_04
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 110%;
+    left: 66%;
+}
+
+.img_05
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 145%;
+    left: 15%;
+}
+
+.img_01:hover, .img_02:hover, .img_03:hover, .img_04:hover, .img_05:hover
+{
+    opacity: 0.7;
+}
+
+/*-------------------------------------------------Modal-------------------------------------------------*/
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal_content
+{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption01, #caption02, #caption03, #caption04, #caption05
+{
+    margin: auto;
+    text-decoration: bold;
+    font-size: 20px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption01, #caption02, #caption03, #caption04, #caption05
+{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close01, .close02, .close03, .close04, .close05
+{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close01:hover, .close01:focus, .close02:hover, .close02:focus, .close03:hover, .close03:focus, .close04:hover, .close04:focus, close05:hover, .close05:focus
+{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {.modal-content {width: 100%;}}

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <div class="alert alert-primary w3-display-topmiddle" style="width:100%" title="display01">
+        {{ display01[0]["message"] }}
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in display02 %}
+                <tr>
+                    <td>{{ item["symbol"] }}</td>
+                    <td>{{ item["name"] }}</td>
+                    <td>{{ item["shares"] }}</td>
+                    <td>${{ item["price"] }}</td>
+                    <td>${{ item["TOTAL"] }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td>CASH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>${{ display01[1]["cash"] }}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>${{ display01[2]["grand_TOTAL"] }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

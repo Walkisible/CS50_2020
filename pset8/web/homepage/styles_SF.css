@@ -1,0 +1,287 @@
+/*-------------------------------------------------Text-------------------------------------------------*/
+.title
+{
+    text-align: center;
+    font-size: 64px;
+    font-weight: Bold;
+    font-family: Rochester;
+    color: #000000;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_ext
+{
+    text-align: center;
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: #333333;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header_01
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+
+.header_02
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 73%;
+    left: 10%;
+}
+
+.header_03
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 197%;
+    left: 10%;
+}
+
+.subheader_01
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+}
+
+.subheader_02
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+}
+
+.subheader_03
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 118%;
+    left: 35%;
+}
+
+.subheader_04
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 157%;
+    left: 10%;
+}
+
+.subheader_05
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 196%;
+    left: 35%;
+}
+
+.subheader_06
+{
+    font-size: 26px;
+    font-weight: Bold;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 235%;
+    left: 10%;
+}
+
+.text01
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    color: white;
+    position: absolute;
+    top: 41%;
+    left: 35%;
+    width: 730px;
+}
+
+.text02
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    width: 730px;
+}
+
+.text03
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 123%;
+    left: 35%;
+    width: 730px;
+}
+
+.text04
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 162%;
+    left: 10%;
+    width: 730px;
+}
+
+.text05
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 201%;
+    left: 35%;
+    width: 730px;
+}
+
+.text06
+{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 240%;
+    left: 10%;
+    width: 730px;
+}
+
+
+/*-------------------------------------------------background-------------------------------------------------*/
+.bg_01
+{
+    width: 100%;
+    height: 300px;
+    top: 26%;
+    left: 0%;
+    position: absolute;
+}
+
+
+/*-------------------------------------------------Top Navigator-------------------------------------------------*/
+.top_nav
+{
+    background-color: #333333;
+    overflow: hidden;
+    font-family: Segoe UI;
+}
+
+.top_ele
+{
+    float: left;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Segoe UI;
+}
+
+.top_ele:hover
+{
+    background-color: #DEDFE4;
+    color: #000000;
+    text-decoration: none;
+}
+
+.active
+{
+    background-color: #264B77;
+    color: white;
+}
+
+/*-------------------------------------------------Image-------------------------------------------------*/
+
+.img01
+{
+    position: absolute;
+    left: 10%;
+    top: 36%;
+}
+
+.img02
+{
+    position: absolute;
+    left: 67%;
+    top: 81%;
+}
+
+.img03
+{
+    position: absolute;
+    left: 10%;
+    top: 118%;
+}
+
+.img04
+{
+    position: absolute;
+    left: 67%;
+    top: 157%;
+}
+
+.img05
+{
+    position: absolute;
+    left: 10%;
+    top: 196%;
+}
+
+.img06
+{
+    position: absolute;
+    left: 67%;
+    top: 235%;
+}
+
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+.footer
+{
+    font-family: Segoe UI;
+    position: absolute;
+    left: 0%;
+    top: 273%;
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #264B77;
+    color: white;
+    text-align: center;
+}

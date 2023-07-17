@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <div class="form-group" title="{{ rows }}">
+        A share of {{ rows["name"] }} ({{ rows["symbol"] }}) costs {{ rows["price"] }}
+    </div>
+{% endblock %}
